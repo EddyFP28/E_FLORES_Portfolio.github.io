@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="E. Flores — Estudiante de Ingeniería Civil UCR. Análisis de Datos, SIG y Modelado CAD." />
+  <title>E. FLORES | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="nav-logo" href="#home">E. FLORES</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" id="nav-toggle">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+        <li><a href="#portfolio" class="nav-link">Portafolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO / HOME
+    ════════════════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-eyebrow">
+          <span class="mono tag">Ingeniería Civil — UCR</span>
+          <span class="hero-dot" aria-hidden="true"></span>
+          <span class="mono tag">San José, Costa Rica</span>
+        </div>
+        <h1 class="hero-title">
+          E. Flores
+          <span class="hero-title-sub">Ingeniería, datos<br>y territorio.</span>
+        </h1>
+        <p class="hero-intro">
+          Como estudiante de ingeniería, me impulsa una curiosidad constante
+          por la innovación. Tengo un interés especial en el análisis de datos
+          y en el papel que la IA está comenzando a jugar en el desarrollo
+          técnico. Me entusiasma aprender sobre modelos computarizados y
+          entender cómo las nuevas herramientas tecnológicas pueden optimizar
+          las bases de la ingeniería actual, preparándome para los retos de
+          una industria en constante cambio.
+        </p>
+        <a href="#portfolio" class="btn-primary">Ver proyectos →</a>
+      </div>
+      <div class="hero-rule" aria-hidden="true"></div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SOBRE MÍ
+    ════════════════════════════════════════════════ -->
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <div class="section-header">
+          <span class="mono section-index">— 01</span>
+          <h2 class="section-title">Sobre mí</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-bio">
+            <p>
+              Soy estudiante de <strong>Ingeniería Civil</strong> en la Universidad
+              de Costa Rica con enfoque en la intersección entre tecnología y
+              construcción. Trabajo con herramientas de modelado BIM, análisis
+              espacial y programación para entender y resolver problemas de
+              infraestructura desde una perspectiva analítica y moderna.
+            </p>
+            <p>
+              Me interesa especialmente cómo la <strong>inteligencia artificial</strong>
+              y el <strong>análisis de datos</strong> están redefiniendo los flujos
+              de trabajo en ingeniería: desde la planificación de proyectos hasta
+              la inspección de estructuras y la gestión territorial.
+            </p>
+          </div>
+
+          <div class="skills-panel">
+            <h3 class="skills-title mono">Competencias técnicas</h3>
+
+            <div class="skill-group">
+              <div class="skill-group-label mono">Modelado CAD / BIM</div>
+              <ul class="skill-list" role="list">
+                <li class="skill-item">
+                  <span class="skill-name">Revit</span>
+                  <span class="skill-bar"><span class="skill-fill" style="width:85%"></span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">AutoCAD</span>
+                  <span class="skill-bar"><span class="skill-fill" style="width:90%"></span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">SketchUp</span>
+                  <span class="skill-bar"><span class="skill-fill" style="width:80%"></span></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-group-label mono">SIG & Análisis Espacial</div>
+              <ul class="skill-list" role="list">
+                <li class="skill-item">
+                  <span class="skill-name">ArcGIS</span>
+                  <span class="skill-bar"><span class="skill-fill" style="width:80%"></span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">QGIS / gvSIG</span>
+                  <span class="skill-bar"><span class="skill-fill" style="width:75%"></span></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-group-label mono">Datos & Programación</div>
+              <ul class="skill-list" role="list">
+                <li class="skill-item">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-bar"><span class="skill-fill" style="width:70%"></span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Excel avanzado</span>
+                  <span class="skill-bar"><span class="skill-fill" style="width:85%"></span></span>
+                </li>
+              </ul>
+            </div>
+
+          </div><!-- /skills-panel -->
+        </div><!-- /about-grid -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PORTAFOLIO
+    ════════════════════════════════════════════════ -->
+    <section class="section section--alt" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <span class="mono section-index">— 02</span>
+          <h2 class="section-title">Portafolio</h2>
+        </div>
+
+        <!-- ── CATEGORÍA 1: ANÁLISIS DE DATOS ── -->
+        <div class="category-block">
+          <div class="category-header">
+            <span class="category-num mono">01</span>
+            <div>
+              <h3 class="category-title">Análisis de Datos</h3>
+              <p class="category-desc">Proyectos de visualización, procesamiento y modelado estadístico de datos aplicados a problemas de ingeniería y deporte.</p>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+
+            <article class="project-card">
+              <div class="project-card-header">
+                <span class="mono project-tag">Python · Pandas · Matplotlib</span>
+                <span class="project-status status--active">En desarrollo</span>
+              </div>
+              <h4 class="project-title">Análisis estadístico de datos F1</h4>
+              <p class="project-desc">
+                Exploración y visualización de datos históricos de la Fórmula 1:
+                tiempos de vuelta, estrategias de pit stop y rendimiento comparativo
+                de equipos mediante gráficos interactivos.
+              </p>
+              <div class="project-footer">
+                <a href="#" class="project-link mono">Ver proyecto →</a>
+              </div>
+            </article>
+
+            <!-- Tarjeta placeholder -->
+            <article class="project-card project-card--empty">
+              <div class="project-card-header">
+                <span class="mono project-tag">Próximamente</span>
+              </div>
+              <h4 class="project-title">Nuevo proyecto</h4>
+              <p class="project-desc">Espacio para un próximo proyecto de análisis de datos en ingeniería civil o infraestructura.</p>
+              <div class="project-footer">
+                <span class="mono project-link-muted">En preparación</span>
+              </div>
+            </article>
+
+          </div>
+        </div><!-- /category-block -->
+
+        <div class="category-divider" aria-hidden="true"></div>
+
+        <!-- ── CATEGORÍA 2: SIG ── -->
+        <div class="category-block">
+          <div class="category-header">
+            <span class="category-num mono">02</span>
+            <div>
+              <h3 class="category-title">SIG — Sistemas de Información Geográfica</h3>
+              <p class="category-desc">Análisis espacial, cartografía temática y modelado territorial con ArcGIS, QGIS y gvSIG.</p>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+
+            <article class="project-card">
+              <div class="project-card-header">
+                <span class="mono project-tag">ArcGIS · Análisis de cuencas</span>
+                <span class="project-status status--done">Completado</span>
+              </div>
+              <h4 class="project-title">Análisis de cuencas hidrográficas</h4>
+              <p class="project-desc">
+                Delimitación y caracterización hidrológica de cuencas en Costa Rica.
+                Modelado de drenaje, cálculo de parámetros morfométricos y
+                cartografía de subcuencas.
+              </p>
+              <div class="project-footer">
+                <a href="#" class="project-link mono">Ver proyecto →</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card-header">
+                <span class="mono project-tag">gvSIG · Riesgo territorial</span>
+                <span class="project-status status--done">Completado</span>
+              </div>
+              <h4 class="project-title">Mapeo de riesgo de incendios</h4>
+              <p class="project-desc">
+                Identificación de zonas de alta vulnerabilidad mediante análisis
+                multicriterio: cobertura vegetal, pendiente, accesibilidad y
+                condiciones climáticas históricas.
+              </p>
+              <div class="project-footer">
+                <a href="#" class="project-link mono">Ver proyecto →</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card-header">
+                <span class="mono project-tag">UCR · Cartografía patrimonial</span>
+                <span class="project-status status--done">Completado</span>
+              </div>
+              <h4 class="project-title">Sitios arqueológicos indígenas</h4>
+              <p class="project-desc">
+                Proyecto con la Escuela de Geografía UCR. Georreferenciación y
+                mapeo de sitios arqueológicos de comunidades indígenas
+                costarricenses para preservación patrimonial.
+              </p>
+              <div class="project-footer">
+                <a href="#" class="project-link mono">Ver proyecto →</a>
+              </div>
+            </article>
+
+          </div>
+        </div><!-- /category-block -->
+
+        <div class="category-divider" aria-hidden="true"></div>
+
+        <!-- ── CATEGORÍA 3: INSPECCIÓN DE PUENTES ── -->
+        <div class="category-block">
+          <div class="category-header">
+            <span class="category-num mono">03</span>
+            <div>
+              <h3 class="category-title">Inspección de Puentes</h3>
+              <p class="category-desc">Evaluación estructural de puentes, fichas técnicas de campo e integración de datos de inspección con herramientas digitales.</p>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+
+            <article class="project-card">
+              <div class="project-card-header">
+                <span class="mono project-tag">Trabajo de campo · UCR</span>
+                <span class="project-status status--done">Completado</span>
+              </div>
+              <h4 class="project-title">Evaluación estructural — Puentes CR</h4>
+              <p class="project-desc">
+                Inspección visual y registro sistemático del estado de elementos
+                estructurales: vigas, tableros, apoyos y obras de arte menores.
+                Documentación con fichas técnicas estandarizadas.
+              </p>
+              <div class="project-footer">
+                <a href="#" class="project-link mono">Ver proyecto →</a>
+              </div>
+            </article>
+
+            <article class="project-card project-card--empty">
+              <div class="project-card-header">
+                <span class="mono project-tag">Próximamente</span>
+              </div>
+              <h4 class="project-title">Nuevo proyecto</h4>
+              <p class="project-desc">Próxima investigación sobre integración de datos de inspección con modelos BIM o herramientas de IA.</p>
+              <div class="project-footer">
+                <span class="mono project-link-muted">En preparación</span>
+              </div>
+            </article>
+
+          </div>
+        </div><!-- /category-block -->
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="mono footer-copy">© 2025 E. Flores — Ingeniería Civil UCR</span>
+      <div class="footer-links">
+        <a href="mailto:tu@correo.com" class="footer-link mono">Email</a>
+        <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener" class="footer-link mono">LinkedIn</a>
+        <a href="https://github.com/tu-usuario" target="_blank" rel="noopener" class="footer-link mono">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Mobile nav toggle ──
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+
+    // ── Active nav link on scroll ──
+    const sections = document.querySelectorAll('section[id]');
+    const links = document.querySelectorAll('.nav-link');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          links.forEach(l => l.classList.remove('active'));
+          const active = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { threshold: 0.4 });
+    sections.forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
